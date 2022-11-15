@@ -1,0 +1,37 @@
+/*Definições gerais*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Header CSS*/
+header{
+    width: 100%;
+    height: 25%;
+    padding-top: 15px;
+    background-color: #008584;
+    border-bottom: 5px solid #e9e9e9;
+}
+
+header h1{
+    color: #e9e9e9;
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+.color-imc{
+    color: #f5f5f5;
+}
+
+header h2{
+    color: #e9e9e9;
+    padding-bottom: 10px;
+}
+
+
+
+
+
