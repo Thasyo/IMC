@@ -15,8 +15,11 @@
     </header>
     <main>
         <section>
-            <div class="left">
+            <div class="box-imc">
                 <form>
+                    <div>
+                        <h3>Calculadora</h3>
+                    </div>
                     <div class="inputs">
                         <div class="input-name">
                             <label for="name">Nome:</label>
@@ -31,20 +34,16 @@
                             <label for="height">Peso:</label>
                             <input type="number">
                         </div>
+                        <input type="submit" id="button" value="Calcular">
                     </div>
-                    <input type="submit" id="button" value="Calcular">
                 </form>
             </div>
-            <div class="right">
-                <h3>Informações Proveitosas:</h3>
-                <div class="info-container">
-                    <p class="info">Abaixo do Peso (IMC: Abaixo de 18.5)</p>
-                    <p class="info">Peso Normal (IMC: 18.5 - 24.9)</p>
-                    <p class="info">Sobrepeso (IMC: 25 - 29.9)</p>
-                    <p class="info">Obesidade Grau 1 (IMC: 30 - 34.9)</p>
-                    <p class="info">Obesidade Grau 2 (IMC: 35 - 39.9)</p>
-                    <p class="info">Obesidade Mórbida (IMC: 40 ou mais)</p>
-                </div>
+            <div class="box-answer">
+                <p>MENOR QUE 18.5 = MAGREZA</p>
+                <p>ENTRE 18.5 E 24.9 = NORMAL</p>	
+                <p>ENTRE 25.0 E 29.9 = SOBREPESO</p>	
+                <p>ENTRE 30.0 E 39.9 = OBESIDADE</p>	
+                <p>MAIOR QUE 40.0 = OBESIDADE GRAVE</p>
             </div>
         </section>
     </main>
