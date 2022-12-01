@@ -162,7 +162,11 @@ form div h3{
     color: #237d7d;
 }
 
-
+#res{
+    width: 50%;
+    color: #32302f;
+    font-weight: 800;
+}
 
 /*Footer CSS*/
 footer{

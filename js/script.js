@@ -7,15 +7,16 @@ function calcularIMC(){
 
     //Acessando elementos.
     const nome = document.getElementById("nome").value;
-    const altura = document.getElementById("altura").value;
-    const peso = document.getElementById("peso").value;
+    const altura = Number.parseFloat(document.getElementById("altura").value);
+    const peso = Number.parseFloat(document.getElementById("peso").value);
     //Acessando campo de resposta.
-    let campoResposta = document.getElementById("box-answer");
+    let campoResposta = document.getElementById("res");
 
     if(nome === '' || altura === '' || peso === ''){
         alert('Preencha todos os campos!');
     }else{
-        alert("valor preenchido")
+        alert('tudo preenchido');
+        campoResposta.innerHTML = "Tudo ok!";
     }
 
 
