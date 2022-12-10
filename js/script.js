@@ -15,10 +15,9 @@ function calcularIMC(){
     if(nome === '' || altura === '' || peso === ''){
         alert('Preencha todos os campos!');
     }else{
-        alert('tudo preenchido');
-        campoResposta.innerHTML = "Tudo ok!";
+        const imc = peso / (altura*altura);
+        campoResposta.textContent = `Olá ${nome}! `;
+        campoResposta.textContent += `O seu IMC é: ${imc.toFixed(2)}`;
     }
-
-
 }
 

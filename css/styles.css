@@ -162,9 +162,13 @@ form div h3{
     color: #237d7d;
 }
 
+#last{
+    border-bottom: 1px solid #039a9a;
+}
+
 #res{
     width: 50%;
-    color: #32302f;
+    color: #039a9a;
     font-weight: 800;
 }
 
@@ -205,7 +209,6 @@ footer{
 .credits p span{
     letter-spacing: 1px;
 }
-
 
 
 
